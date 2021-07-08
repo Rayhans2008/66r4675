@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<head>
+    <title>Login Page</title>
+    </title>
+    <style>
+        body{
+            margin-top: 15%;
+            text-align: center;
+            background:url(./Static/rm218batch10-aum-09_1.jpg);
+            background-size: cover;
+            color: crimson;
+            font-family:'Lobster', cursive;
+            font-size: xx-large;
+            
+          
+        }
+        
+        button{
+         
+            margin: auto;
+            font-size: xx-large;
+        }
+        
+       
+
+        
+        button:hover{
+            background-color: crimson;
+            color: white;
+
+        }
+        .button-animation-45deg-slide {
+
+        padding: 20px;
+
+        border-radius: 20px;
+
+        width: 200px;
+
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center;
+
+        border: none;
+
+        border-color: #f1c40f;
+
+        color: #fff;
+
+        background-image: -webkit-linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+
+        background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+
+        background-position: 100%;
+
+        background-size: 400%;
+
+        -webkit-transition: background 300ms ease-in-out;
+
+        transition: background 300ms ease-in-out;
+
+        }
+
+    .button-animation-45deg-slide:hover {
+
+        background-position: 0;
+
+        }
+    
+       
+    
+    </style>
+     <link rel="shortcut icon" type="image/x-icon" href="./Static/Icon.ico" />
+</head>
+<body>
+     
+    <form>
+        <label for="username">Username:
+            <input type="text" id="username" name="username" required>
+        </label>
+        <br><br>
+        <label for="password">Password:
+            <input type="password" id="password" name="password" required>
+        </label>
+        <br><br>
+        <label>
+            <p>Please select your Age Group</p>
+            <select id="age" name="age">
+                <option selected>---Select your option---</option>
+                <option>4-10 yrs</option>
+                <option>11-18yrs</option>
+                <option>19-40 yrs</option>
+                <option>60+ yrs</option>
+            </select>
+        </label>
+        <br><br>
+        <label  for="Feedback" >Feedback:
+            <textarea rows="4" cols="30"></textarea>
+        </label>
+        <br><br>
+        
+        
+        <button class="button-animation-45deg-slide" ><a href="./Frontpage.html" style="text-decoration: none;">Submit</a></button> 
+        
+    </form>
+    
+
+</body>
